@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "D:\\KiCad Workspace\\STM32-DESIGN-PROJECTS\\STM32-V1\\STM32-V1.sch")
-    (date "16.09.2021 12:45:05")
+    (source D:\KiCad_Designs\STM32-V1\STM32-V1.sch)
+    (date "16.09.2021 19:01:51")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -19,6 +19,8 @@
       (value LD1086D2T33TR)
       (footprint Package_TO_SOT_SMD:TO-263-2)
       (datasheet https://www.st.com/resource/en/datasheet/ld1086.pdf)
+      (fields
+        (field (name "LSCS Part #") C7915))
       (libsource (lib Regulator_Linear) (part LD1086D2T33TR) (description "Positive, 1.5A 30V, Linear Regulator, Fixed Output 3.3V, TO-263"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6140AECB))
@@ -26,6 +28,8 @@
       (value 4u7)
       (footprint Capacitor_SMD:C_0603_1608Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C19666))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6141B2D9))
@@ -33,6 +37,8 @@
       (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C1525))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6141B849))
@@ -40,6 +46,8 @@
       (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C1525))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6141C9E1))
@@ -47,6 +55,8 @@
       (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C1525))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6141D284))
@@ -54,6 +64,8 @@
       (value 10u)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C15525))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6142BDF3))
@@ -61,6 +73,8 @@
       (value 1u)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C29266))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6142C15B))
@@ -68,6 +82,8 @@
       (value 27n)
       (footprint Inductor_SMD:L_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C18830))
       (libsource (lib Device) (part L_Small) (description "Inductor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6142EC1A))
@@ -75,6 +91,8 @@
       (value 10k)
       (footprint Resistor_SMD:R_0603_1608Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C25804))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61444FC2))
@@ -89,6 +107,8 @@
       (value STM32F103C8Tx)
       (footprint Package_QFP:LQFP-48_7x7mm_P0.5mm)
       (datasheet http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf)
+      (fields
+        (field (name "LSCS Part #") C8734))
       (libsource (lib MCU_ST_STM32F1) (part STM32F103C8Tx) (description "ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6140C376))
@@ -96,6 +116,8 @@
       (value 30p)
       (footprint Capacitor_SMD:C_0603_1608Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C22397))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6145A60E))
@@ -103,6 +125,8 @@
       (value 30p)
       (footprint Capacitor_SMD:C_0603_1608Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C22397))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 614577D9))
@@ -110,6 +134,8 @@
       (value 2k2)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C25933))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61475C1C))
@@ -117,6 +143,8 @@
       (value 2k2)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C25933))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61476008))
@@ -124,6 +152,8 @@
       (value 2k2)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C25933))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 614778A1))
@@ -131,6 +161,8 @@
       (value 2k2)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C25933))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61477B23))
@@ -138,6 +170,8 @@
       (value USBLC6-2SC6)
       (footprint Package_TO_SOT_SMD:SOT-23-6)
       (datasheet https://www.st.com/resource/en/datasheet/usblc6-2.pdf)
+      (fields
+        (field (name "LSCS Part #") C7519))
       (libsource (lib Power_Protection) (part USBLC6-2SC6) (description "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"))
       (sheetpath (names /) (tstamps /))
       (tstamp 614C2FF2))
@@ -145,6 +179,8 @@
       (value 10u)
       (footprint Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C108529))
       (libsource (lib Device) (part CP1_Small) (description "Polarized capacitor, small US symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6154AC4D))
@@ -152,13 +188,17 @@
       (value 10u)
       (footprint Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C108529))
       (libsource (lib Device) (part CP1_Small) (description "Polarized capacitor, small US symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6154B980))
     (comp (ref F1)
-      (value JK-nSMD110-SF)
+      (value JK-nSMD150-SF)
       (footprint Fuse:Fuse_1206_3216Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C369553))
       (libsource (lib Device) (part Polyfuse_Small) (description "Resettable fuse, polymeric positive temperature coefficient, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 615A00EA))
@@ -166,6 +206,8 @@
       (value 1.5k)
       (footprint Resistor_SMD:R_0603_1608Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C22843))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6162D1C6))
@@ -173,6 +215,8 @@
       (value BLUE)
       (footprint LED_SMD:LED_0603_1608Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C72041))
       (libsource (lib Device) (part LED_Small) (description "Light emitting diode, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6163D62F))
@@ -180,6 +224,8 @@
       (value RED)
       (footprint LED_SMD:LED_0603_1608Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C2286))
       (libsource (lib Device) (part LED_Small) (description "Light emitting diode, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6164C0A3))
@@ -187,6 +233,8 @@
       (value BMP280)
       (footprint Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering)
       (datasheet https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf)
+      (fields
+        (field (name "LSCS Part #") C83291))
       (libsource (lib Sensor_Pressure) (part BMP280) (description "Absolute Barometric Pressure Sensor, LGA-8"))
       (sheetpath (names /) (tstamps /))
       (tstamp 616A4975))
@@ -194,6 +242,8 @@
       (value 2n2)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C1531))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 614773A7))
@@ -201,6 +251,8 @@
       (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C1525))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61434BB3))
@@ -208,6 +260,8 @@
       (value MPU-6050)
       (footprint Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm)
       (datasheet https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf)
+      (fields
+        (field (name "LSCS Part #") MPU-6050))
       (libsource (lib Sensor_Motion) (part MPU-6050) (description "InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6142ACC8))
@@ -222,6 +276,8 @@
       (value RED)
       (footprint LED_SMD:LED_0603_1608Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C2286))
       (libsource (lib Device) (part LED_Small) (description "Light emitting diode, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61643532))
@@ -229,6 +285,8 @@
       (value 1k)
       (footprint Resistor_SMD:R_0603_1608Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C21190))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6151DE51))
@@ -236,6 +294,8 @@
       (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C1525))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 614FB339))
@@ -243,6 +303,8 @@
       (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C1525))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 614EA032))
@@ -250,6 +312,8 @@
       (value Ai-Thinker-Ra-02)
       (footprint RF_Module:Ai-Thinker-Ra-02-LoRa)
       (datasheet https://docs.ai-thinker.com/_media/lora/docs/c048ps01a1_ra-02_product_specification_v1.1.pdf)
+      (fields
+        (field (name "LSCS Part #") C90039))
       (libsource (lib RF_Module) (part Ai-Thinker-Ra-02) (description "Ai-Thinker LoRa Module Ra-02"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61673192))
@@ -285,6 +349,8 @@
       (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C1525))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 614A445E))
@@ -292,6 +358,8 @@
       (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C1525))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 614A4BE9))
@@ -299,6 +367,8 @@
       (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C15195))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61455047))
@@ -306,6 +376,8 @@
       (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C1525))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61451AD1))
@@ -313,6 +385,8 @@
       (value USB_B_Micro)
       (footprint Connector_USB:USB_Micro-B_Molex-105017-0001)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C136000))
       (libsource (lib Connector) (part USB_B_Micro) (description "USB Micro Type B connector"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61818EDF))
@@ -320,6 +394,8 @@
       (value CH340E)
       (footprint Package_SO:MSOP-10_3x3mm_P0.5mm)
       (datasheet https://www.mpja.com/download/35227cpdata.pdf)
+      (fields
+        (field (name "LSCS Part #") C99652))
       (libsource (lib Interface_USB) (part CH340E) (description "USB serial converter, UART, MSOP-10"))
       (sheetpath (names /) (tstamps /))
       (tstamp 614E1ADB))
@@ -327,6 +403,8 @@
       (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C1525))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6141D760))
@@ -334,6 +412,8 @@
       (value 1k)
       (footprint Resistor_SMD:R_0603_1608Metric)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C21190))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 615E3FA2))
@@ -341,6 +421,8 @@
       (value Crystal)
       (footprint Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm)
       (datasheet ~)
+      (fields
+        (field (name "LSCS Part #") C251585))
       (libsource (lib Device) (part Crystal) (description "Two pin crystal"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6144375B)))
